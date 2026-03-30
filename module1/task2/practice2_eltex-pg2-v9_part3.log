@@ -64,4 +64,177 @@ OpenSSH_9.6p1 Ubuntu-3ubuntu13.15, OpenSSL 3.0.13 30 Jan 2024
 debug1: Reading configuration data /etc/ssh/ssh_config
 debug1: /etc/ssh/ssh_config line 19: include /etc/ssh/ssh_config.d/*.conf matched no files
 debug1: /etc/ssh/ssh_config line 21: Applying options for *
-debug
+debugScript started on 2026-03-30 05:33:22+00:00 [TERM="xterm" TTY="/dev/pts/2" COLUMNS="93" LINES="49"]
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# ls[K[Kmv[K[Kls eltes[Kx/[K_practice/
+[?2004l[0m[01;34mmodule1[0m  README.md
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# c d[K[K[Kmv [K[K[Kcd mo[K[Keltex_practice/modi[Kule [K1/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice/module1root@eltex-practice2-pg2-v9:~/eltex_practice/module1# ls
+[?2004l[0m[01;34mtask1[0m  [01;34mtask2[0m  [01;34mtask3[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice/module1root@eltex-practice2-pg2-v9:~/eltex_practice/module1# cd task1[K[K[K[K[K[K[K[Kcd [K[K[Kls task
+[?2004lls: cannot access 'task': No such file or directory
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice/module1root@eltex-practice2-pg2-v9:~/eltex_practice/module1# ls task1/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice/module1root@eltex-practice2-pg2-v9:~/eltex_practice/module1# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# ls
+[?2004leltex-pg2-v9_part3_gt50M.log  [0m[01;31metc_backup.tar.gz[0m
+eltex-pg2-v9_part3.log        [01;31metc_backup_updated.tar.gz[0m
+eltex-pg2-v9_part.log         practice2_eltex-pg2-v9_part1.log
+[01;34meltex_practice[0m                practice2_eltex-pg2-v9_part2.log
+[01;34metc_backup[0m                    practice2_eltex-pg2-v9_part3.log
+[01;34metc_backup_7zip[0m               practice2__part1.log
+[01;34metc_backup_gzip[0m               report_part1.txt
+[01;31metc_backup.tar.7z[0m             typescript
+[01;31metc_backup.tar.bz2[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# mv eltex-pg2-v9* el[K[K/elte[K[K[K[K[Keltex_practice/module1/task1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# mv report_p[Kpart1.txt eltex_par[K[K[Kpractiv[Kce?[K/module1/task2[K1
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# ls
+[?2004l[0m[01;34meltex_practice[0m   [01;31metc_backup.tar.7z[0m          practice2_eltex-pg2-v9_part1.log  typescript
+[01;34metc_backup[0m       [01;31metc_backup.tar.bz2[0m         practice2_eltex-pg2-v9_part2.log
+[01;34metc_backup_7zip[0m  [01;31metc_backup.tar.gz[0m          practice2_eltex-pg2-v9_part3.log
+[01;34metc_backup_gzip[0m  [01;31metc_backup_updated.tar.gz[0m  practice2__part1.log
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# mv pa[Kractice2* eltext[K_practice/mp[Kodule2/[K[K1/task2
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cd e;t[K[Kltex_practice
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# git[K[K[Kgit brac[Knch
+[?2004l[?1h=* [32mmain[m[m
+[K[?1l>[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# gi[K[Kgit add *
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# git as[K[Kstatus
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   module1/task1/eltex-pg2-v9_part.log[m
+	[32mnew file:   module1/task1/eltex-pg2-v9_part3.log[m
+	[32mnew file:   module1/task1/eltex-pg2-v9_part3_gt50M.log[m
+	[32mnew file:   module1/task1/report_part1.txt[m
+	[32mnew file:   module1/task2/practice2__part1.log[m
+	[32mnew file:   module1/task2/practice2_eltex-pg2-v9_part1.log[m
+	[32mnew file:   module1/task2/practice2_eltex-pg2-v9_part2.log[m
+	[32mnew file:   module1/task2/practice2_eltex-pg2-v9_part3.log[m
+
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# git push origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K commit -[K0[K-.[K,[Km'fri[K[Kirstan[K[K and secn[Kond tasks'
+[?2004l[main dabf61e] first and second tasks
+ 8 files changed, 3505 insertions(+)
+ create mode 100644 module1/task1/eltex-pg2-v9_part.log
+ create mode 100644 module1/task1/eltex-pg2-v9_part3.log
+ create mode 100644 module1/task1/eltex-pg2-v9_part3_gt50M.log
+ create mode 100644 module1/task1/report_part1.txt
+ create mode 100644 module1/task2/practice2__part1.log
+ create mode 100644 module1/task2/practice2_eltex-pg2-v9_part1.log
+ create mode 100644 module1/task2/practice2_eltex-pg2-v9_part2.log
+ create mode 100644 module1/task2/practice2_eltex-pg2-v9_part3.log
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# git push origin main
+[?2004lEnumerating objects: 14, done.
+Counting objects:   7% (1/14)Counting objects:  14% (2/14)Counting objects:  21% (3/14)Counting objects:  28% (4/14)Counting objects:  35% (5/14)Counting objects:  42% (6/14)Counting objects:  50% (7/14)Counting objects:  57% (8/14)Counting objects:  64% (9/14)Counting objects:  71% (10/14)Counting objects:  78% (11/14)Counting objects:  85% (12/14)Counting objects:  92% (13/14)Counting objects: 100% (14/14)Counting objects: 100% (14/14), done.
+Delta compression using up to 2 threads
+Compressing objects:   7% (1/13)Compressing objects:  15% (2/13)Compressing objects:  23% (3/13)Compressing objects:  30% (4/13)Compressing objects:  38% (5/13)Compressing objects:  46% (6/13)Compressing objects:  53% (7/13)Compressing objects:  61% (8/13)Compressing objects:  69% (9/13)Compressing objects:  76% (10/13)Compressing objects:  84% (11/13)Compressing objects:  92% (12/13)Compressing objects: 100% (13/13)Compressing objects: 100% (13/13), done.
+Writing objects:   7% (1/13)Writing objects:  15% (2/13)Writing objects:  23% (3/13)Writing objects:  30% (4/13)Writing objects:  38% (5/13)Writing objects:  46% (6/13)Writing objects:  53% (7/13)Writing objects:  61% (8/13)Writing objects:  69% (9/13)Writing objects:  76% (10/13)Writing objects:  84% (11/13)Writing objects:  92% (12/13)Writing objects: 100% (13/13)Writing objects: 100% (13/13), 29.76 KiB | 9.92 MiB/s, done.
+Total 13 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/getsur1mu/eltex_practice.git
+   1a9b298..dabf61e  main -> main
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# [K]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# св ю[K[K[K[Kcd. .[K[K[K[K .[K[Kd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# mkdir ~/eltex_practice_clone ^^[K[K&& cd ~/eltex_practi ce-[K_clone
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# git clone [7mhttps://github.com[27m[7m/[27m[7mgetsur1mu/eltex_practice/tree/main[27m[A]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# [C[C[C[C[C[C[C[C[C[Chttps://github.com/getsur1mu/eltex_practice/tree/main
+[?2004lCloning into 'main'...
+fatal: repository 'https://github.com/getsur1mu/eltex_practice/tree/main/' not found
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# ls
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# git clone [7mhttps://github.com[27m[7m/[27m[7mgetsur1mu/eltex_practice.git[27m[A]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# [C[C[C[C[C[C[C[C[C[Chttps://github.com/getsur1mu/eltex_practice.git[7mhttps://github.com/getsur1mu/eltex_practice.git[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Phttps://github.com/getsur1mu/eltex_practice.gi[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004lCloning into 'eltex_practice'...
+remote: Enumerating objects: 16, done.[K
+remote: Counting objects:   6% (1/16)[Kremote: Counting objects:  12% (2/16)[Kremote: Counting objects:  18% (3/16)[Kremote: Counting objects:  25% (4/16)[Kremote: Counting objects:  31% (5/16)[Kremote: Counting objects:  37% (6/16)[Kremote: Counting objects:  43% (7/16)[Kremote: Counting objects:  50% (8/16)[Kremote: Counting objects:  56% (9/16)[Kremote: Counting objects:  62% (10/16)[Kremote: Counting objects:  68% (11/16)[Kremote: Counting objects:  75% (12/16)[Kremote: Counting objects:  81% (13/16)[Kremote: Counting objects:  87% (14/16)[Kremote: Counting objects:  93% (15/16)[Kremote: Counting objects: 100% (16/16)[Kremote: Counting objects: 100% (16/16), done.[K
+remote: Compressing objects:   7% (1/14)[Kremote: Compressing objects:  14% (2/14)[Kremote: Compressing objects:  21% (3/14)[Kremote: Compressing objects:  28% (4/14)[Kremote: Compressing objects:  35% (5/14)[Kremote: Compressing objects:  42% (6/14)[Kremote: Compressing objects:  50% (7/14)[Kremote: Compressing objects:  57% (8/14)[Kremote: Compressing objects:  64% (9/14)[Kremote: Compressing objects:  71% (10/14)[Kremote: Compressing objects:  78% (11/14)[Kremote: Compressing objects:  85% (12/14)[Kremote: Compressing objects:  92% (13/14)[Kremote: Compressing objects: 100% (14/14)[Kremote: Compressing objects: 100% (14/14), done.[K
+Receiving objects:   6% (1/16)Receiving objects:  12% (2/16)Receiving objects:  18% (3/16)Receiving objects:  25% (4/16)Receiving objects:  31% (5/16)Receiving objects:  37% (6/16)Receiving objects:  43% (7/16)Receiving objects:  50% (8/16)Receiving objects:  56% (9/16)Receiving objects:  62% (10/16)Receiving objects:  68% (11/16)remote: Total 16 (delta 0), reused 16 (delta 0), pack-reused 0 (from 0)[K
+Receiving objects:  75% (12/16)Receiving objects:  81% (13/16)Receiving objects:  87% (14/16)Receiving objects:  93% (15/16)Receiving objects: 100% (16/16)Receiving objects: 100% (16/16), 29.94 KiB | 333.00 KiB/s, done.
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# ls
+[?2004l[0m[01;34meltex_practice[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# cd eltex_practice/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# ls
+[?2004l[0m[01;34mmodule1[0m  README.md
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# nano Re[KEADME.M D[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmd 
+[?2004l[?2004h[?1049h[22;0;0t[1;49r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[47;34H(B[0;7m[ Reading... ](B[m[47;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                        README.md                                 [1;79H(B[m[48d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[49d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dLearning things[?12l[?25h[?25l[?12l[?25hL[?25l[?12l[?25he[?25l[?12l[?25ha[?25l[?12l[?25hr[?25l[?12l[?25hn[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25h [?25l[?12l[?25ht[?25l[?12l[?25hh[?25l[?12l[?25hi[?25l[?12l[?25hn[?25l[?12l[?25hg[?25l[?12l[?25hs[?25l[?12l[?25h[3d[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[47d[K[?12l[?25h[3d[?25l[?12l[?25h[2;16H[?25l[?12l[?25h[3d[?25l[1;49H(B[0;7m*[79G(B[m[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[8;57H(B[0;1m[36m[1K .[9;46H[1K .         ;  [10;17H[1K .[14X[10;33H.[14X[10;48H;%     ;;   [11;19H[1K ,           ,[16X[11;49H:;%  %;   [12;20H[1K :         ;[19X[12;51H:;%;'     .,   [13;11H[1K ,.        %;     %;            ;        %;'    ,;[14;13H[1K ;       ;%;  %%;        ,     %;    ;%;    ,%'[15;14H[1K %;       %;%;      ,  ;       %;  ;%;   ,%;' [16;15H[1K ;%;      %;        ;%;        % ;%;  ,%;'[17;16H[1K `%;.     ;%;     %;'         `;%%;.%;'[18;17H[1K `:;%.    ;%%. %@;        %; ;@%;%'[19;20H[1K `:%;.  :;bd%;          %;@%;'[20;22H[1K `@%:.  :;%.         ;@@%;'   [21;24H[1K `@%.  `;@%.      ;@@%;         [22;26H[1K `@%%. `@%%    ;@@%;        [23;28H[1K ;@%. :@%%  %@@%;       [24;30H[1K %@bd%%%bd%%:;     [25;32H[1K #@%%%%%:;;[26;32H[1K %@@%%%::;[27;32H[1K %@@@%(o);  . '         [28;32H[1K %@@@o%;:(.,'         [29;28H[1K `.. %@@@o%::;         [30;31H[1K `)@@@o%::;         [31;32H[1K %@@(o)::;        [32;31H[1K .%@@@@%::;         [33;31H[1K ;%@@@@%::;.          [34;30H[1K ;%@@@@%%:;;;. [35;26H[1K ...;%@@@@@%%:;;;;,.. [39m(B[m[?12l[?25h[?25l[47d(B[0;7mSave modified buffer?                                                           [48;1H Y(B[m Yes[K[49d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[47;23H[?12l[?25h[?25l[48d(B[0;7m^G(B[m Help[48;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[48;61H(B[0;7mM-B(B[m Backup File[49d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[49;61H(B[0;7m^T(B[m Browse[47d(B[0;7mFile Name to Write: README.md(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [79G(B[m[47;32H(B[0;7m[ Wrote 34 lines ](B[m[J[49d[?12l[?25h[49;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# git[K[K[Krm -f Read,[K[K[K[K[KE[KREADME.md 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# l[Kcd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# cd ..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# ls
+[?2004l[0m[01;34meltex_practice[0m        [01;34metc_backup_7zip[0m    [01;31metc_backup.tar.bz2[0m         typescript
+[01;34meltex_practice_clone[0m  [01;34metc_backup_gzip[0m    [01;31metc_backup.tar.gz[0m
+[01;34metc_backup[0m            [01;31metc_backup.tar.7z[0m  [01;31metc_backup_updated.tar.gz[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cd eltex_r[Kpractice
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# cd [K[K[Kls
+[?2004l[0m[01;34mmodule1[0m  README.md
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# nano README.md 
+[?2004l[?2004h[?1049h[22;0;0t[1;49r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[47;34H(B[0;7m[ Reading... ](B[m[47;33H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                        README.md                                 [1;79H(B[m[48d(B[0;7m^G(B[m Help[14G(B[0;7m^O(B[m Write Out (B[0;7m^W(B[m Where Is  (B[0;7m^K(B[m Cut[53G(B[0;7m^T(B[m Execute   (B[0;7m^C(B[m Location[49d(B[0;7m^X(B[m Exit[14G(B[0;7m^R(B[m Read File (B[0;7m^\(B[m Replace   (B[0;7m^U(B[m Paste     (B[0;7m^J(B[m Justify   (B[0;7m^/(B[m Go To Line[2dLearning things[?12l[?25h[?25l[?12l[?25h[3d[?25l[1;49H(B[0;7m*[79G(B[m[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[47d[K[7;57H(B[0;1m[36m[1K .[8;46H[1K .         ;  [9;17H[1K .[14X[9;33H.[14X[9;48H;%     ;;   [10;19H[1K ,           ,[16X[10;49H:;%  %;   [11;20H[1K :         ;[19X[11;51H:;%;'     .,   [12;11H[1K ,.        %;     %;            ;        %;'    ,;[13;13H[1K ;       ;%;  %%;        ,     %;    ;%;    ,%'[14;14H[1K %;       %;%;      ,  ;       %;  ;%;   ,%;' [15;15H[1K ;%;      %;        ;%;        % ;%;  ,%;'[16;16H[1K `%;.     ;%;     %;'         `;%%;.%;'[17;17H[1K `:;%.    ;%%. %@;        %; ;@%;%'[18;20H[1K `:%;.  :;bd%;          %;@%;'[19;22H[1K `@%:.  :;%.         ;@@%;'   [20;24H[1K `@%.  `;@%.      ;@@%;         [21;26H[1K `@%%. `@%%    ;@@%;        [22;28H[1K ;@%. :@%%  %@@%;       [23;30H[1K %@bd%%%bd%%:;     [24;32H[1K #@%%%%%:;;[25;32H[1K %@@%%%::;[26;32H[1K %@@@%(o);  . '         [27;32H[1K %@@@o%;:(.,'         [28;28H[1K `.. %@@@o%::;         [29;31H[1K `)@@@o%::;         [30;32H[1K %@@(o)::;        [31;31H[1K .%@@@@%::;         [32;31H[1K ;%@@@@%::;.          [33;30H[1K ;%@@@@%%:;;;. [34;26H[1K ...;%@@@@@%%:;;;;,..[39m(B[m[?12l[?25h[?25l[47d(B[0;7mSave modified buffer?                                                           [48;1H Y(B[m Yes[K[49d(B[0;7m N(B[m No  [14G   (B[0;7m^C(B[m Cancel[K[47;23H[?12l[?25h[?25l[48d(B[0;7m^G(B[m Help[48;21H(B[0;7mM-D(B[m DOS Format[41G(B[0;7mM-A(B[m Append[48;61H(B[0;7mM-B(B[m Backup File[49d(B[0;7m^C(B[m Cancel[17G    (B[0;7mM-M(B[m Mac Format[41G(B[0;7mM-P(B[m Prepend[49;61H(B[0;7m^T(B[m Browse[47d(B[0;7mFile Name to Write: README.md(B[m[?12l[?25h[?25l   [1K (B[0;7m[ Writing... ](B[m[K[1;49H(B[0;7m [79G(B[m[47;32H(B[0;7m[ Wrote 33 lines ](B[m[J[49d[?12l[?25h[49;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# gt[Kit co[K[Kcom[K[K[Kadd REad[K[KADME.md 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# pug[K[K[Kgit commit -m;[K'something be[K[Kpretty'
+[?2004l[main 137a42e] something pretty
+ 1 file changed, 32 insertions(+)
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# git push origin main
+[?2004lEnumerating objects: 5, done.
+Counting objects:  20% (1/5)Counting objects:  40% (2/5)Counting objects:  60% (3/5)Counting objects:  80% (4/5)Counting objects: 100% (5/5)Counting objects: 100% (5/5), done.
+Delta compression using up to 2 threads
+Compressing objects:  33% (1/3)Compressing objects:  66% (2/3)Compressing objects: 100% (3/3)Compressing objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 581 bytes | 581.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/getsur1mu/eltex_practice.git
+   dabf61e..137a42e  main -> main
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice# cd ,[K..
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cd[[K[K[Kls
+[?2004l[0m[01;34meltex_practice[0m        [01;34metc_backup_7zip[0m    [01;31metc_backup.tar.bz2[0m         typescript
+[01;34meltex_practice_clone[0m  [01;34metc_backup_gzip[0m    [01;31metc_backup.tar.gz[0m
+[01;34metc_backup[0m            [01;31metc_backup.tar.7z[0m  [01;31metc_backup_updated.tar.gz[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cd ele[Ktex_practice_clone/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# ls
+[?2004l[0m[01;34meltex_practice[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_cloneroot@eltex-practice2-pg2-v9:~/eltex_practice_clone# cd eltex_practice/
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# git fetch
+[?2004lremote: Enumerating objects: 5, done.[K
+remote: Counting objects:  20% (1/5)[Kremote: Counting objects:  40% (2/5)[Kremote: Counting objects:  60% (3/5)[Kremote: Counting objects:  80% (4/5)[Kremote: Counting objects: 100% (5/5)[Kremote: Counting objects: 100% (5/5), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)[K
+Unpacking objects:  33% (1/3)Unpacking objects:  66% (2/3)Unpacking objects: 100% (3/3)Unpacking objects: 100% (3/3), 561 bytes | 561.00 KiB/s, done.
+From https://github.com/getsur1mu/eltex_practice
+   dabf61e..137a42e  main       -> origin/main
+[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# git log origi n/main
+[?2004l[?1h=[33mcommit 137a42ecb48bde1b260b2626740204fa74e94b82[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: getsur1mu <sur1mu@yahoo.com>[m
+Date:   Mon Mar 30 05:49:36 2026 +0000[m
+[m
+    something pretty[m
+[m
+[33mcommit dabf61e5f78903170191065683afe62f44abd083[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m[m
+Author: getsur1mu <sur1mu@yahoo.com>[m
+Date:   Mon Mar 30 05:36:40 2026 +0000[m
+[m
+    first and second tasks[m
+[m
+[33mcommit 1a9b29864d710662b2f4ceb01d55d8696b0db31a[m[m
+Author: getsur1mu <sur1mu@yahoo.com>[m
+Date:   Wed Mar 25 12:43:20 2026 +0000[m
+[m
+    first commit[m
+[K[?1l>[?2004h]0;root@eltex-practice2-pg2-v9: ~/eltex_practice_clone/eltex_practiceroot@eltex-practice2-pg2-v9:~/eltex_practice_clone/eltex_practice# git diff main  origin/main
+[?2004l[?1h=[1mdiff --git a/README.md b/README.md[m[m
+[1mindex 47ebd15..23e9c28 100644[m[m
+[1m--- a/README.md[m[m
+[1m+++ b/README.md[m[m
+[36m@@ -1 +1,33 @@[m[m
+ Learning things[m[m
+[32m+[m[m
+[32m+[m[m
+[32m+[m[m
+[32m+[m[m
+[32m+[m[32m                                                         .[m[m
+[32m+[m[32m                                              .         ;[m[41m  [m[m
+[32m+[m[32m                 .              .              ;%     ;;[m[41m   [m[m
+[32m+[m[32m                   ,           ,                :;%  %;[m[41m   [m[m
+[32m+[m[32m                    :         ;                   :;%;'     .,[m[41m   [m[m
+[32m+[m[32m           ,.        %;     %;            ;        %;'    ,;[m[m
+[32m+[m[32m             ;       ;%;  %%;        ,     %;    ;%;    ,%'[m[m
+[32m+[m[32m              %;       %;%;      ,  ;       %;  ;%;   ,%;'[m[41m [m[m
+[32m+[m[32m               ;%;      %;        ;%;        % ;%;  ,%;'[m[m
+[32m+[m[32m                `%;.     ;%;     %;'         `;%%;.%;'[m[m
+[32m+[m[32m                 `:;%.    ;%%. %@;        %; ;@%;%'[m[m
+[32m+[m[32m                    `:%;.  :;bd%;          %;@%;'[m[m
+[32m+[m[32m                      `@%:.  :;%.         ;@@%;'[m[41m   [m[m
+[32m+[m[32m                        `@%.  `;@%.      ;@@%;[m[41m         [m[m
+[32m+[m[32m                          `@%%. `@%%    ;@@%;[m[41m        [m[m
+[32m+[m[32m                            ;@%.
