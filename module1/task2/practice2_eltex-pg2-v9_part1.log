@@ -1,0 +1,24 @@
+#1773310439
+ssh-keygen
+#1773310710
+export MYUSER="eltex-pg2-v9"
+#1773310723
+export HISTFILE=~/practice2_${MYUSER}_part1.log
+#1773310735
+export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+#1773310739
+export PROMPT_COMMAND="history -a"
+#1773310770
+ssh-keygen
+#1773310952
+ssh-copy-id -i ~/.ssh/id_rsa_practice2.pub root@172.16.9.209
+#1773310980
+ssh-copy-id -i /home/eltex-pg2-v9/.ssh/id_rsa.pub root@172.16.9.209
+#1773311096
+cat /home/eltex-pg2-v9/.ssh/id_rsa.pub
+#1773311141
+ssh root@172.16.9.209
+#1773311545
+cat ~/.ssh/id_rsa_practice2.pub
+#1773311565
+ssh root@172.16.9.209

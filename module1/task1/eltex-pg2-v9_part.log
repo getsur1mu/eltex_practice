@@ -1,0 +1,1170 @@
+Script started on 2026-03-12 14:42:32+07:00 [TERM="screen" TTY="/dev/pts/27" COLUMNS="80" LINES="24"]
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg2-v9@eltex-2026-spring:~$ ls[K[KHIST#HIST[1PHIST$HIST[C[C[C[C
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+eltex-pg2-v9@eltex-2026-spring:~$ $HISTe$HISTc$HISTh$HISTo$HIST $HIST[C[C[C[C[CSIZE
+[?2004l1000
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls -ld ~/.*[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld ~/.*
+[?2004l-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  687 Mar 12 14:39 /home/eltex-pg2-v9/.bash_history
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  220 Mar 30  2024 /home/eltex-pg2-v9/.bash_logout
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9 3526 Mar 30  2024 /home/eltex-pg2-v9/.bashrc
+drwx------ 3 eltex-pg2-v9 eltex-pg2-v9 4096 Mar  5 20:10 [0m[01;34m/home/eltex-pg2-v9/.config[0m
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  807 Mar 30  2024 /home/eltex-pg2-v9/.profile
+-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  798 Mar 12 14:36 /home/eltex-pg2-v9/.viminfo
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ^[[200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: $'\E[200~export': command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~[3mexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: ~export: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[1P
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ history tal[K[K[K| tail -S[K5
+[?2004l   49  12.03.26 14:45:45 ls -ld ~/.*
+   50  12.03.26 14:46:13 [200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   51  12.03.26 14:46:25 ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ history | tail -5[K3
+[?2004l   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+   54  12.03.26 14:46:53 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ date
+[?2004lThu Mar 12 02:47:49 PM +07 2026
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ datehistory | tail -3
+[?2004l   54  12.03.26 14:46:53 history | tail -3
+   55  12.03.26 14:47:49 date
+   56  12.03.26 14:47:52 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mexport PROMPT_COMMAND="history -a"[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PROMPT_COMMAND="history -a"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ whoami
+[?2004leltex-pg2-v9
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ historyt[K |grep[K[K[K [K[K grep whi[Koami
+[?2004l   58  12.03.26 14:49:00 whoami
+   59  12.03.26 14:49:10 history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ tail -4[K5 ~./[K[K/.bash_
+.bash_history  .bash_logout   
+eltex-pg2-v9@eltex-2026-spring:~$ tail -5 ~/.bash_history |g[K grep [K[K[K[K[K[K[K
+[?2004lexport PROMPT_COMMAND="history -a"
+#1773301740
+whoami
+#1773301750
+history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE=$(date +%Y-%m-%d)[23mDATE=$(date +%Y-%m-%d)
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ echo #[K%[K$[K$DATE
+[?2004l2026-03-12
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mTIME=$(date +%H:%M:%S)[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTIME=$(date +%H:%M:%S)
+M
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mecho $TIME[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $TIME
+M
+[?2004l14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE_TIME="$DATE $TIME"[23mDATE_TIME="$DATE $TIME"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ DATE_TIME="$DATE $TIME"[K#ec[K[K[K%[K^[K$[K$echo [K[K[K[K[K[Kecho $DAte[K[KTE
+$DATE       $DATE_TIME  
+eltex-pg2-v9@eltex-2026-spring:~$ echo $DATE_t[KTIME 
+[?2004l2026-03-12 14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ screen 0ls[K[K[K-ls
+[?2004lThere is a screen on:
+	3795527.whoami_part2	(03/12/2026 02:42:16 PM)	(Attached)
+1 Socket in /run/screen/S-eltex-pg2-v9.
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ 
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'[Keltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:55> [3mbash[23mbash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> export P1[Ks![K1[K[KSD[K1
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:56> bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> [3menv PS1="$PS1"[23menv PS1="$PS1"
+[?2004lSHELL=/usr/bin/bash
+LANGUAGE=en_US:en
+TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#24:co#80:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:
+HISTTIMEFORMAT=%d.%m.%y %H:%M:%S 
+WINDOW=0
+PWD=/home/eltex-pg2-v9
+LOGNAME=eltex-pg2-v9
+XDG_SESSION_TYPE=tty
+MOTD_SHOWN=pam
+HOME=/home/eltex-pg2-v9
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+PROMPT_COMMAND=history -a
+SSH_CONNECTION=90.189.218.30 58166 172.16.8.4 22
+XDG_SESSION_CLASS=user
+TERM=screen
+USER=eltex-pg2-v9
+SHLVL=3
+XDG_SESSION_ID=585
+XDG_RUNTIME_DIR=/run/user/1095
+PS1=\u@\h-$(date +%H:%M)> 
+SSH_CLIENT=90.189.218.30 58166 22
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+STY=3795527.whoami_part2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1095/bus
+SSH_TTY=/dev/pts/59
+_=/usr/bin/env
+[?2004heltex-pg2-v9@eltex-2026-spring-14:58> [3menv PS1="$PS1" bash[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenv PS1="$PS1" bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ учш[K[K[Kexit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> bash --norc
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:59> exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> [3mmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ды
+[?2004lbash: ды: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-02[0m  [01;34m2026-03[0m  [01;34m2026-04[0m  [01;34m2026-05[0m  [01;34m2026-06[0m  [01;34m2026-07[0m  [01;34m2026-08[0m  [01;34m2026-09[0m  [01;34m2026-10[0m  [01;34m2026-11[0m  [01;34m2026-12[0m  eltex-pg2-v9_part.log  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> [Keltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-03[0m  [01;34m2026-05[0m  [01;34m2026-07[0m  [01;34m2026-09[0m  [01;34m2026-11[0m  eltex-pg2-v9_part.log
+[01;34m2026-02[0m  [01;34m2026-04[0m  [01;34m2026-06[0m  [01;34m2026-08[0m  [01;34m2026-10[0m  [01;34m2026-12[0m  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-spring-15:01> ls[K[Kcat eltex-pg2-v9_part.log 
+[?2004lScript started on 2026-03-12 14:42:32+07:00 [TERM="screen" TTY="/dev/pts/27" COLUMNS="80" LINES="24"]
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg2-v9@eltex-2026-spring:~$ ls[K[KHIST#HIST[1PHIST$HIST[C[C[C[C
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+eltex-pg2-v9@eltex-2026-spring:~$ $HISTe$HISTc$HISTh$HISTo$HIST $HIST[C[C[C[C[CSIZE
+[?2004l1000
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls -ld ~/.*[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld ~/.*
+[?2004l-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  687 Mar 12 14:39 /home/eltex-pg2-v9/.bash_history
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  220 Mar 30  2024 /home/eltex-pg2-v9/.bash_logout
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9 3526 Mar 30  2024 /home/eltex-pg2-v9/.bashrc
+drwx------ 3 eltex-pg2-v9 eltex-pg2-v9 4096 Mar  5 20:10 [0m[01;34m/home/eltex-pg2-v9/.config[0m
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  807 Mar 30  2024 /home/eltex-pg2-v9/.profile
+-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  798 Mar 12 14:36 /home/eltex-pg2-v9/.viminfo
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ^[[200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: $'\E[200~export': command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~[3mexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: ~export: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[1P
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ history tal[K[K[K| tail -S[K5
+[?2004l   49  12.03.26 14:45:45 ls -ld ~/.*
+   50  12.03.26 14:46:13 [200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   51  12.03.26 14:46:25 ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ history | tail -5[K3
+[?2004l   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+   54  12.03.26 14:46:53 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ date
+[?2004lThu Mar 12 02:47:49 PM +07 2026
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ datehistory | tail -3
+[?2004l   54  12.03.26 14:46:53 history | tail -3
+   55  12.03.26 14:47:49 date
+   56  12.03.26 14:47:52 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mexport PROMPT_COMMAND="history -a"[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PROMPT_COMMAND="history -a"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ whoami
+[?2004leltex-pg2-v9
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ historyt[K |grep[K[K[K [K[K grep whi[Koami
+[?2004l   58  12.03.26 14:49:00 whoami
+   59  12.03.26 14:49:10 history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ tail -4[K5 ~./[K[K/.bash_
+.bash_history  .bash_logout   
+eltex-pg2-v9@eltex-2026-spring:~$ tail -5 ~/.bash_history |g[K grep [K[K[K[K[K[K[K
+[?2004lexport PROMPT_COMMAND="history -a"
+#1773301740
+whoami
+#1773301750
+history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE=$(date +%Y-%m-%d)[23mDATE=$(date +%Y-%m-%d)
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ echo #[K%[K$[K$DATE
+[?2004l2026-03-12
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mTIME=$(date +%H:%M:%S)[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTIME=$(date +%H:%M:%S)
+M
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mecho $TIME[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $TIME
+M
+[?2004l14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE_TIME="$DATE $TIME"[23mDATE_TIME="$DATE $TIME"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ DATE_TIME="$DATE $TIME"[K#ec[K[K[K%[K^[K$[K$echo [K[K[K[K[K[Kecho $DAte[K[KTE
+$DATE       $DATE_TIME  
+eltex-pg2-v9@eltex-2026-spring:~$ echo $DATE_t[KTIME 
+[?2004l2026-03-12 14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ screen 0ls[K[K[K-ls
+[?2004lThere is a screen on:
+	3795527.whoami_part2	(03/12/2026 02:42:16 PM)	(Attached)
+1 Socket in /run/screen/S-eltex-pg2-v9.
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ 
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'[Keltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:55> [3mbash[23mbash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> export P1[Ks![K1[K[KSD[K1
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:56> bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> [3menv PS1="$PS1"[23menv PS1="$PS1"
+[?2004lSHELL=/usr/bin/bash
+LANGUAGE=en_US:en
+TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#24:co#80:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:
+HISTTIMEFORMAT=%d.%m.%y %H:%M:%S 
+WINDOW=0
+PWD=/home/eltex-pg2-v9
+LOGNAME=eltex-pg2-v9
+XDG_SESSION_TYPE=tty
+MOTD_SHOWN=pam
+HOME=/home/eltex-pg2-v9
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+PROMPT_COMMAND=history -a
+SSH_CONNECTION=90.189.218.30 58166 172.16.8.4 22
+XDG_SESSION_CLASS=user
+TERM=screen
+USER=eltex-pg2-v9
+SHLVL=3
+XDG_SESSION_ID=585
+XDG_RUNTIME_DIR=/run/user/1095
+PS1=\u@\h-$(date +%H:%M)> 
+SSH_CLIENT=90.189.218.30 58166 22
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+STY=3795527.whoami_part2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1095/bus
+SSH_TTY=/dev/pts/59
+_=/usr/bin/env
+[?2004heltex-pg2-v9@eltex-2026-spring-14:58> [3menv PS1="$PS1" bash[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenv PS1="$PS1" bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ учш[K[K[Kexit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> bash --norc
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:59> exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> [3mmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ды
+[?2004lbash: ды: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-02[0m  [01;34m2026-03[0m  [01;34m2026-04[0m  [01;34m2026-05[0m  [01;34m2026-06[0m  [01;34m2026-07[0m  [01;34m2026-08[0m  [01;34m2026-09[0m  [01;34m2026-10[0m  [01;34m2026-11[0m  [01;34m2026-12[0m  eltex-pg2-v9_part.log  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> [Keltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-03[0m  [01;34m2026-05[0m  [01;34m2026-07[0m  [01;34m2026-09[0m  [01;34m2026-11[0m  eltex-pg2-v9_part.log
+[01;34m2026-02[0m  [01;34m2026-04[0m  [01;34m2026-06[0m  [01;34m2026-08[0m  [01;34m2026-10[0m  [01;34m2026-12[0m  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-spring-15:01> ls[K[Kcat eltex-pg2-v9_part.log 
+[?2004lScript started on 2026-03-12 14:42:32+07:00 [TERM="screen" TTY="/dev/pts/27" COLUMNS="80" LINES="24"]
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls
+ls           lsb_release  lsinitramfs  lslocks      lsmod        lspci
+lsattr       lscpu        lsipc        lslogins     lsns         lsusb
+lsblk        lsfd         lsirq        lsmem        lsof         
+eltex-pg2-v9@eltex-2026-spring:~$ ls[K[KHIST#HIST[1PHIST$HIST[C[C[C[C
+$HISTCMD       $HISTCONTROL   $HISTFILE      $HISTFILESIZE  $HISTSIZE
+eltex-pg2-v9@eltex-2026-spring:~$ $HISTe$HISTc$HISTh$HISTo$HIST $HIST[C[C[C[C[CSIZE
+[?2004l1000
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls -ld ~/.*[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld ~/.*
+[?2004l-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  687 Mar 12 14:39 /home/eltex-pg2-v9/.bash_history
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  220 Mar 30  2024 /home/eltex-pg2-v9/.bash_logout
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9 3526 Mar 30  2024 /home/eltex-pg2-v9/.bashrc
+drwx------ 3 eltex-pg2-v9 eltex-pg2-v9 4096 Mar  5 20:10 [0m[01;34m/home/eltex-pg2-v9/.config[0m
+-rw-r--r-- 1 eltex-pg2-v9 eltex-pg2-v9  807 Mar 30  2024 /home/eltex-pg2-v9/.profile
+-rw------- 1 eltex-pg2-v9 eltex-pg2-v9  798 Mar 12 14:36 /home/eltex-pg2-v9/.viminfo
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ^[[200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: $'\E[200~export': command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~[3mexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+[?2004lbash: ~export: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "[1P
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ history tal[K[K[K| tail -S[K5
+[?2004l   49  12.03.26 14:45:45 ls -ld ~/.*
+   50  12.03.26 14:46:13 [200~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   51  12.03.26 14:46:25 ~export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ history | tail -5[K3
+[?2004l   52  12.03.26 14:46:30 export HISTTIMEFORMAT="%d.%m.%y %H:%M:%S "
+   53  12.03.26 14:46:42 history | tail -5
+   54  12.03.26 14:46:53 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ date
+[?2004lThu Mar 12 02:47:49 PM +07 2026
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ datehistory | tail -3
+[?2004l   54  12.03.26 14:46:53 history | tail -3
+   55  12.03.26 14:47:49 date
+   56  12.03.26 14:47:52 history | tail -3
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mexport PROMPT_COMMAND="history -a"[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PROMPT_COMMAND="history -a"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ whoami
+[?2004leltex-pg2-v9
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ historyt[K |grep[K[K[K [K[K grep whi[Koami
+[?2004l   58  12.03.26 14:49:00 whoami
+   59  12.03.26 14:49:10 history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ tail -4[K5 ~./[K[K/.bash_
+.bash_history  .bash_logout   
+eltex-pg2-v9@eltex-2026-spring:~$ tail -5 ~/.bash_history |g[K grep [K[K[K[K[K[K[K
+[?2004lexport PROMPT_COMMAND="history -a"
+#1773301740
+whoami
+#1773301750
+history | grep whoami
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE=$(date +%Y-%m-%d)[23mDATE=$(date +%Y-%m-%d)
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ echo #[K%[K$[K$DATE
+[?2004l2026-03-12
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mTIME=$(date +%H:%M:%S)[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[CTIME=$(date +%H:%M:%S)
+M
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mecho $TIME[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho $TIME
+M
+[?2004l14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mDATE_TIME="$DATE $TIME"[23mDATE_TIME="$DATE $TIME"
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ DATE_TIME="$DATE $TIME"[K#ec[K[K[K%[K^[K$[K$echo [K[K[K[K[K[Kecho $DAte[K[KTE
+$DATE       $DATE_TIME  
+eltex-pg2-v9@eltex-2026-spring:~$ echo $DATE_t[KTIME 
+[?2004l2026-03-12 14:52:01
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ [Keltex-pg2-v9@eltex-2026-spring:~$ screen 0ls[K[K[K-ls
+[?2004lThere is a screen on:
+	3795527.whoami_part2	(03/12/2026 02:42:16 PM)	(Attached)
+1 Socket in /run/screen/S-eltex-pg2-v9.
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ 
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mls /bin /sbin 2>/dev/null | grep '[0-9]'[23m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls /bin /sbin 2>/dev/null | grep '[0-9]'[Keltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'
+[?2004laddr2line
+b2sum
+base32
+base64
+bunzip2
+bzip2
+bzip2recover
+c89
+c89-gcc
+c99
+c99-gcc
+cpan5.36-x86_64-linux-gnu
+cpp-12
+diff3
+enc2xs
+gcc-12
+gcc-ar-12
+gcc-nm-12
+gcc-ranlib-12
+gcov-12
+gcov-dump-12
+gcov-tool-12
+grub-menulst2cfg
+grub-mkpasswd-pbkdf2
+grub-syslinux2cfg
+h2ph
+h2xs
+i386
+linux32
+linux64
+lto-dump-12
+md5sum
+md5sum.textutils
+pdb3
+pdb3.11
+perl5.36.0
+perl5.36-x86_64-linux-gnu
+ping4
+ping6
+pl2pm
+pod2html
+pod2man
+pod2text
+pod2usage
+py3clean
+py3compile
+py3versions
+pydoc3
+pydoc3.11
+pygettext3
+pygettext3.11
+python3
+python3.11
+sha1sum
+sha224sum
+sha256sum
+sha384sum
+sha512sum
+ssh-argv0
+systemd-id128
+traceroute6
+traceroute6.db
+x86_64
+x86_64-linux-gnu-addr2line
+x86_64-linux-gnu-ar
+x86_64-linux-gnu-as
+x86_64-linux-gnu-c++filt
+x86_64-linux-gnu-cpp
+x86_64-linux-gnu-cpp-12
+x86_64-linux-gnu-dwp
+x86_64-linux-gnu-elfedit
+x86_64-linux-gnu-gcc
+x86_64-linux-gnu-gcc-12
+x86_64-linux-gnu-gcc-ar
+x86_64-linux-gnu-gcc-ar-12
+x86_64-linux-gnu-gcc-nm
+x86_64-linux-gnu-gcc-nm-12
+x86_64-linux-gnu-gcc-ranlib
+x86_64-linux-gnu-gcc-ranlib-12
+x86_64-linux-gnu-gcov
+x86_64-linux-gnu-gcov-12
+x86_64-linux-gnu-gcov-dump
+x86_64-linux-gnu-gcov-dump-12
+x86_64-linux-gnu-gcov-tool
+x86_64-linux-gnu-gcov-tool-12
+x86_64-linux-gnu-gold
+x86_64-linux-gnu-gp-archive
+x86_64-linux-gnu-gp-collect-app
+x86_64-linux-gnu-gp-display-html
+x86_64-linux-gnu-gp-display-src
+x86_64-linux-gnu-gp-display-text
+x86_64-linux-gnu-gprof
+x86_64-linux-gnu-gprofng
+x86_64-linux-gnu-ld
+x86_64-linux-gnu-ld.bfd
+x86_64-linux-gnu-ld.gold
+x86_64-linux-gnu-lto-dump
+x86_64-linux-gnu-lto-dump-12
+x86_64-linux-gnu-nm
+x86_64-linux-gnu-objcopy
+x86_64-linux-gnu-objdump
+x86_64-linux-gnu-ranlib
+x86_64-linux-gnu-readelf
+x86_64-linux-gnu-size
+x86_64-linux-gnu-strings
+x86_64-linux-gnu-strip
+dumpe2fs
+e2freefrag
+e2fsck
+e2image
+e2label
+e2mmpstatus
+e2scrub
+e2scrub_all
+e2undo
+e4crypt
+e4defrag
+fsck.ext2
+fsck.ext3
+fsck.ext4
+killall5
+mke2fs
+mkfs.ext2
+mkfs.ext3
+mkfs.ext4
+resize2fs
+tune2fs
+update-grub2
+[?2004heltex-pg2-v9@eltex-2026-spring:~$ ls /bin /sbin 2>/dev/null | grep '[0-9]'[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[KM[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3mexport PS1='\u@\h-$(date +%H:%M)> '[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexport PS1='\u@\h-$(date +%H:%M)> '
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:55> [3mbash[23mbash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> export P1[Ks![K1[K[KSD[K1
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:56> bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:56> [3menv PS1="$PS1"[23menv PS1="$PS1"
+[?2004lSHELL=/usr/bin/bash
+LANGUAGE=en_US:en
+TERMCAP=SC|screen|VT 100/ANSI X3.64 virtual terminal:DO=\E[%dB:LE=\E[%dD:RI=\E[%dC:UP=\E[%dA:bs:bt=\E[Z:cd=\E[J:ce=\E[K:cl=\E[H\E[J:cm=\E[%i%d;%dH:ct=\E[3g:do=^J:nd=\E[C:pt:rc=\E8:rs=\Ec:sc=\E7:st=\EH:up=\EM:le=^H:bl=^G:cr=^M:it#8:ho=\E[H:nw=\EE:ta=^I:is=\E)0:li#24:co#80:am:xn:xv:LP:sr=\EM:al=\E[L:AL=\E[%dL:cs=\E[%i%d;%dr:dl=\E[M:DL=\E[%dM:dc=\E[P:DC=\E[%dP:im=\E[4h:ei=\E[4l:mi:IC=\E[%d@:ks=\E[?1h\E=:ke=\E[?1l\E>:vi=\E[?25l:ve=\E[34h\E[?25h:vs=\E[34l:ti=\E[?1049h:te=\E[?1049l:us=\E[4m:ue=\E[24m:so=\E[3m:se=\E[23m:mb=\E[5m:md=\E[1m:mh=\E[2m:mr=\E[7m:me=\E[m:ms:Co#8:pa#64:AF=\E[3%dm:AB=\E[4%dm:op=\E[39;49m:AX:vb=\Eg:G0:as=\E(0:ae=\E(B:ac=\140\140aaffggjjkkllmmnnooppqqrrssttuuvvwwxxyyzz{{||}}~~..--++,,hhII00:po=\E[5i:pf=\E[4i:Km=\E[<:k0=\E[10~:k1=\EOP:k2=\EOQ:k3=\EOR:k4=\EOS:k5=\E[15~:k6=\E[17~:k7=\E[18~:k8=\E[19~:k9=\E[20~:k;=\E[21~:F1=\E[23~:F2=\E[24~:kB=\E[Z:kh=\E[1~:@1=\E[1~:kH=\E[4~:@7=\E[4~:kN=\E[6~:kP=\E[5~:kI=\E[2~:kD=\E[3~:ku=\EOA:kd=\EOB:kr=\EOC:kl=\EOD:km:
+HISTTIMEFORMAT=%d.%m.%y %H:%M:%S 
+WINDOW=0
+PWD=/home/eltex-pg2-v9
+LOGNAME=eltex-pg2-v9
+XDG_SESSION_TYPE=tty
+MOTD_SHOWN=pam
+HOME=/home/eltex-pg2-v9
+LANG=en_US.UTF-8
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.swp=00;90:*.tmp=00;90:*.dpkg-dist=00;90:*.dpkg-old=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:
+PROMPT_COMMAND=history -a
+SSH_CONNECTION=90.189.218.30 58166 172.16.8.4 22
+XDG_SESSION_CLASS=user
+TERM=screen
+USER=eltex-pg2-v9
+SHLVL=3
+XDG_SESSION_ID=585
+XDG_RUNTIME_DIR=/run/user/1095
+PS1=\u@\h-$(date +%H:%M)> 
+SSH_CLIENT=90.189.218.30 58166 22
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games
+STY=3795527.whoami_part2
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1095/bus
+SSH_TTY=/dev/pts/59
+_=/usr/bin/env
+[?2004heltex-pg2-v9@eltex-2026-spring-14:58> [3menv PS1="$PS1" bash[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cenv PS1="$PS1" bash
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring:~$ учш[K[K[Kexit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> bash --norc
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-14:59> exit
+[?2004lexit
+[?2004heltex-pg2-v9@eltex-2026-spring-14:59> [3mmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}[23m
+M[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmkdir -p ~/$(date +%Y)-{01,02,03,04,05,06,07,08,09,10,11,12}
+[?2004l[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ды
+[?2004lbash: ды: command not found
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-02[0m  [01;34m2026-03[0m  [01;34m2026-04[0m  [01;34m2026-05[0m  [01;34m2026-06[0m  [01;34m2026-07[0m  [01;34m2026-08[0m  [01;34m2026-09[0m  [01;34m2026-10[0m  [01;34m2026-11[0m  [01;34m2026-12[0m  eltex-pg2-v9_part.log  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-spring-15:00> [Keltex-pg2-v9@eltex-2026-spring-15:00> ls
+[?2004l[0m[01;34m2026-01[0m  [01;34m2026-03[0m  [01;34m2026-05[0m  [01;34m2026-07[0m  [01;34m2026-09[0m  [01;34m2026-11[0m  eltex-pg2-v9_part.log
+[01;34m2026-02[0m  [01;34m2026-04[0m  [01;34m2026-06[0m  [01;34m2026-08[0m  [01;34m2026-10[0m  [01;34m2026-12[0m  report_part1.txt
+[?2004heltex-pg2-v9@eltex-2026-sp[?2004heltex-pg2-v9@eltex-2026-spring-15:02> exit
+[?2004lexit
+
+Script done on 2026-03-12 15:03:34+07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,155 @@
+Script started on 2026-03-12 10:50:08+00:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="110" LINES="44"]
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# сфе [K[K[K[Kcat practice2_eltex-pg2-v9_part1.log 
+[?2004l#1773311354
+export HISTFILE=~/practice2_${MYUSER}_part1.log
+#1773311360
+ls
+#1773311376
+cat practice2_eltex-pg2-v9_part1.log 
+#1773311392
+rm -f practice2_part1.log
+#1773311393
+cat practice2_eltex-pg2-v9_part1.log 
+#1773311453
+cat ~/.ssh/authorized_keys
+#1773311487
+ls -la ~/.ssh/
+#1773311538
+exit
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# SSS
+[?2004lSSS: command not found
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# SSScat practice2_eltex-pg2-v9_part1.log 
+[?2004l#1773311354
+export HISTFILE=~/practice2_${MYUSER}_part1.log
+#1773311360
+ls
+#1773311376
+cat practice2_eltex-pg2-v9_part1.log 
+#1773311392
+rm -f practice2_part1.log
+#1773311393
+cat practice2_eltex-pg2-v9_part1.log 
+#1773311453
+cat ~/.ssh/authorized_keys
+#1773311487
+ls -la ~/.ssh/
+#1773311538
+exit
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mscript -q ~/practice2_${MYUSER}_part1.log[27m[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pscript -q ~/practice2_${MYUSER}_part1.lo[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[7mchmod +t /opt/share[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod +t /opt/share
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mls -ld /opt/share/[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -ld /opt/share/
+[A
+[?2004ldrwxrws--T 2 root new_group 4096 Mar 12 10:45 [0m[37;44m/opt/share/[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user1 -c "touch /opt/share/new_user1.txt"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user1 -c "touch /opt/share/new_user1.txt"
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user2 -c "touch /opt/share/new_user2.txt"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user2 -c "touch /opt/share/new_user2.txt"
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user3 -c "touch /opt/share/new_user3.txt"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user3 -c "touch /opt/share/new_user3.txt"[C[1@p[1@s[1P[1P[C[1@-[1@s[1@ [1@/[1@b[1@i[1@n[1@/[1@b[1@a[1@s[1@h[1@ 
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user1 -c "rm -f /opt/share/new_user2.txt"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user1 -c "rm -f /opt/share/new_user2.txt"
+[A
+[?2004lrm: cannot remove '/opt/share/new_user2.txt': Operation not permitted
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mecho "user1 ALL=(ALL) /bin/dmesg" >> /etc/sudoers.d/user1[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "user1 ALL=(ALL) /bin/dmesg" >> /etc/sudoers.d/user1
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user1 -c "sudo dmesg | head -5"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "user1 ALL=(ALL) /bin/dmesg" >> /etc/sudoers.d/user1
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Psu - user1 -c "sudo dmesg | head -5"
+[A
+[?2004lsudo: a terminal is required to read the password; either use the -S option to read from standard input or configure an askpass helper
+sudo: a password is required
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cat [K[K[K[Knano /etc/sudoers.d/user1
+[?2004l[?2004h[?1049h[22;0;0t[1;44r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[42;49H(B[0;7m[ Reading... ](B[m[42;48H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 7.2                                 /etc/sudoers.d/user1                                           [1;109H(B[m[43d(B[0;7m^G(B[m Help[43;16H(B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut[43;61H(B[0;7m^T(B[m Execute     (B[0;7m^C(B[m Location    (B[0;7mM-U(B[m Undo[44d(B[0;7m^X(B[m Exit[44;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Paste[61G(B[0;7m^J(B[m Justify     (B[0;7m^/(B[m Go To Line  (B[0;7mM-E(B[m Redo[2duser1 ALL=(ALL) /bin/dmesg[?12l[?25h[?25l[42d[J[44d[?12l[?25h[44;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mcat > /usr/local/bin/show_dmesg.sh << 'EOF'[27m
+[7m#!/bin/bash[27m
+[7m/bin/dmesg | tail -20[27m
+[7mEOF[27m
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat > /usr/local/bin/show_dmesg.sh << 'EOF'
+#!/bin/bash
+/bin/dmesg | tail -20
+EOF
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod 755 /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 755 /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod u+s /usr/local/bin/show_dmesg.sh[27m
+
+[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+s /usr/local/bin/show_dmesg.sh
+
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mls -l /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /usr/local/bin/show_dmesg.sh
+[A
+[?2004l-rwsr-xr-x 1 root root 34 Mar 12 10:55 [0m[37;41m/usr/local/bin/show_dmesg.sh[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mls -l /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /usr/local/bin/show_dmesg.sh
+[A
+[?2004l-rwsr-xr-x 1 root root 34 Mar 12 10:55 [0m[37;41m/usr/local/bin/show_dmesg.sh[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchown root:practice_group /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchown root:practice_group /usr/local/bin/show_dmesg.sh
+[A
+[?2004lchown: invalid group: ‘root:practice_group’
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# chown root:practice_group /usr/local/bin/show_dmesg.sh[1P[1P[1P[1P[1P[1P[1P[1P[1@n[1@e[1@w
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user2 -c "/usr/local/bin/show_dmesg.sh | head -5"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user2 -c "/usr/local/bin/show_dmesg.sh | head -5"
+[A
+[?2004ldmesg: read kernel buffer failed: Operation not permitted
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mls -l /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /usr/local/bin/show_dmesg.sh
+[A
+[?2004l-rwxr-xr-x 1 root new_group 34 Mar 12 10:55 [0m[01;32m/usr/local/bin/show_dmesg.sh[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchown root:root /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchown root:root /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mcat /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat /usr/local/bin/show_dmesg.sh
+[A
+[?2004l#!/bin/bash
+/bin/dmesg | tail -20
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mcat > /usr/local/bin/show_dmesg.sh << 'EOF'[27m
+[7m#!/bin/bash[27m
+[7m/sbin/dmesg 2>&1 | tail -20[27m
+[7mEOF[27m
+[A[A[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat > /usr/local/bin/show_dmesg.sh << 'EOF'
+#!/bin/bash
+/sbin/dmesg 2>&1 | tail -20
+EOF
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod 755 /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 755 /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod u+s /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+s /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchown root:root /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchown root:root /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7msu - user2 -c "/usr/local/bin/show_dmesg.sh | head -5"[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Csu - user2 -c "/usr/local/bin/show_dmesg.sh | head -5"
+[A
+[?2004l/usr/local/bin/show_dmesg.sh: line 2: /sbin/dmesg: No such file or directory
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# whs[Kich dmesg
+[?2004l/usr/bin/dmesg
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mcat > /usr/local/bin/show_dmesg.sh << 'EOF'[27m
+[7m#!/bin/bash[27m
+[7m/usr/bin/dmesg 2>&1 | tail -20[27m
+[7mEOF[27m[A[A[A]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# cat > /usr/local/bin/show_dmesg.sh << 'EOF'
+#!/bin/bash
+/usr/bin/dmesg 2>&1 | tail -20
+EOF
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod 755 /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod 755 /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mchmod u+s /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cchmod u+s /usr/local/bin/show_dmesg.sh
+[A
+[?2004l[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7mls -l /usr/local/bin/show_dmesg.sh[27m
+[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls -l /usr/local/bin/show_dmesg.sh
+[A
+[?2004l-rwsr-xr-x 1 root root 43 Mar 12 10:59 [0m[37;41m/usr/local/bin/show_dmesg.sh[0m
+[?2004h]0;root@eltex-practice2-pg2-v9: ~root@eltex-practice2-pg2-v9:~# [7m/usr/local/bin/show_dmesg.sh | head -5[27m
+[A[C[C[C[C[C

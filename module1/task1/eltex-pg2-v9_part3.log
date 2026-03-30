@@ -1,0 +1,16 @@
+mkdir -p D1/D2/D3
+touch D1/D2/file.txt
+eltex-pg2-v9@eltex-2026-spring:~$ echo closed eyes > D1/D2/file.txt
+cd D1/D2/D3 && ln -s ../file.txt symlink_file.txt && ln ../file.txt hardlink_file.txt && cd ~
+ls -li D1/D2/file.txt D1/D2/D3/symlink_file.txt D1/D2/D3/hardlink_file.txt
+cat D1/D2/D3/symlink_file.txt
+cat D1/D2/D3/hardlink_file.txt
+mv D1/D2/file.txt D1/
+cat D1/D2/D3/symlink_file.txt-ERROR
+cat D1/D2/D3/hardlink_file.txt-FINE
+rm -rf D1/D2
+find / -type f -size +20M 2>/dev/null > ~/eltex-pg2-v9_part3_gt50M.log
+find ~ -type f -mtime -1 2>/dev/null
+which find
+file $(which find)
+file /boot/initrd.img*
