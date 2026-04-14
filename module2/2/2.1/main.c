@@ -1,6 +1,5 @@
 #include "source.h"
 
-
 int main()
 {
     int size = 10;

@@ -3,7 +3,7 @@
 
 #include <stdio.h>
 
-#define MAX_LENGTH 20
+#define MAX_LENGTH 100
 #define MAX_AMOUNT 5
 
 typedef struct Person{
@@ -12,20 +12,22 @@ typedef struct Person{
     char patrynomic[MAX_LENGTH];//Отчество 
     char placeOfWork[MAX_LENGTH];//Место работы
     char post[MAX_LENGTH];//Должность
+    char phoneNumber[MAX_AMOUNT][MAX_LENGTH]; // Номера телефонов
     char email[MAX_AMOUNT][MAX_LENGTH];//Почты
     char link[MAX_AMOUNT][MAX_LENGTH];//Ссылки
-    int amountOfEmails;
-    int amountOfLinks;
+    int fields[8]; // Массив хранящий информацию по заполненности полей
 }Person;
 
 void ShowPersons(Person* book, int currentSize);
 int AddPerson(Person* book, int maxSize, int currentSize);
-int ChangePersonInformation(Person* book, int maxSize, int currentSize);
-int RemovePerson(Person* book, int maxSize, int currentSize);
-int SizeOfBook(Person* book, int maxSize, int currentSize);
+int ChangePersonInformation(Person* book, int currentSize, int personToChange);
+int RemovePerson(Person* book, int currentSize,int personToRemove);
+
 
 int InputOptionalString(char *buffer, int size, const char *prompt);
 
 void Menu(Person* book, int size);
+
+int TestPersons(Person* book,int currentSize);
 
 #endif
