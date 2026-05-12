@@ -2,6 +2,6 @@
 
 int main(int argc, char *argv[])
 {
-    StartMascCalc(argc, argv);
+    StartNetwork(argc, argv);
     return 0;
 }

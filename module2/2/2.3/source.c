@@ -1,5 +1,5 @@
 #include "source.h"
-#include <stdlib.h>
+
 void StartCalculator()
 {
     int choice = -1;
@@ -21,18 +21,29 @@ void StartCalculator()
     AddCommand(Exp,&mainArray);
 
     printf("Введите аргумент 1:\n -> ");
-    scanf("%lf",&a);
+    while (!ReadDouble(&a))
+        printf("Введите число:\n -> ");
 
     while (choice != 0)
     {
         printf("Выберите операцию:\n1: [+] (Сложение)\n2: [-] (Вычитание)\n3: [*] (Умножение)\n4: [/] (Деление)\n5: [^] (Возведение в целую степень)\n0: Выход\n -> ");
-        scanf("%d",&choice);
+        if (!ReadInt(&choice))
+        {
+            printf("Введите номер операции.\n");
+            continue;
+        }
         if (choice == 0)
         {
             break;
         }
+        if (choice < 1 || choice > mainArray.arrayLength)
+        {
+            printf("Выбрана неверная операция\n");
+            continue;
+        }
         printf("Введите аргумент 2:\n -> ");
-        scanf("%lf",&b);
+        while (!ReadDouble(&b))
+            printf("Введите число:\n -> ");
         
         mainArray.array[choice-1](&a,b); // Вызов функции по указателю
 
@@ -43,6 +54,38 @@ void StartCalculator()
     printf("Хорошего дня :)\n");
     //Освобождение памяти
     free(mainArray.array);
+}
+
+int ReadInt(int *value)
+{
+    char input[100];
+    char *end;
+    long number;
+
+    scanf("%99s", input);
+    number = strtol(input, &end, 10);
+
+    if (*end != '\0')
+        return 0;
+
+    *value = number;
+    return 1;
+}
+
+int ReadDouble(double *value)
+{
+    char input[100];
+    char *end;
+    double number;
+
+    scanf("%99s", input);
+    number = strtod(input, &end);
+
+    if (*end != '\0')
+        return 0;
+
+    *value = number;
+    return 1;
 }
 
 void AddCommand(Operation op, OperationsList* opList)
@@ -57,12 +100,12 @@ void AddCommand(Operation op, OperationsList* opList)
 
         for (int i = 0; i<opList->arrayLength; i++)
         {
-            printf("----Выделение памяти----\n");
             newArray[i]=opList->array[i];
         }
 
+        free(opList->array);
         opList->array=newArray;
-        opList->arrayCapacity*2;
+        opList->arrayCapacity*=2;
     }   
     opList->array[opList->arrayLength]=op;
     opList->arrayLength++;

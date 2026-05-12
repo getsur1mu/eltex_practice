@@ -2,8 +2,11 @@
 #define SOURCE_H
 
 #include <stdio.h>
+#include <stdlib.h>
 
 void StartCalculator();
+int ReadInt(int *value);
+int ReadDouble(double *value);
 
 typedef void (*Operation)(double*, double); // Указатель на функцию
 

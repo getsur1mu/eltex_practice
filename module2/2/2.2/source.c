@@ -1,5 +1,5 @@
 #include "source.h"
-#include <stdlib.h>
+
 void StartCalculator()
 {
     int choice = -1;
@@ -7,18 +7,24 @@ void StartCalculator()
     printf("== КАЛЬКУЛЯТОР ==\n\n");
 
     printf("Введите аргумент 1:\n -> ");
-    scanf("%lf",&a);
+    while (!ReadDouble(&a))
+        printf("Введите число:\n -> ");
 
     while (choice != 0)
     {
         printf("Выберите операцию:\n1: [+] (Сложение)\n2: [-] (Вычитание)\n3: [*] (Умножение)\n4: [/] (Деление)\n5: [^] (Возведение в целую степень)\n0: Выход\n -> ");
-        scanf("%d",&choice);
+        if (!ReadInt(&choice))
+        {
+            printf("Введите номер операции.\n");
+            continue;
+        }
         if (choice ==0)
         {
             break;
         }
         printf("Введите аргумент 2:\n -> ");
-        scanf("%lf",&b);
+        while (!ReadDouble(&b))
+            printf("Введите число:\n -> ");
     
         switch (choice)
         {
@@ -53,6 +59,38 @@ void StartCalculator()
 
     }
     printf("Хорошего дня :)\n");
+}
+
+int ReadInt(int *value)
+{
+    char input[100];
+    char *end;
+    long number;
+
+    scanf("%99s", input);
+    number = strtol(input, &end, 10);
+
+    if (*end != '\0')
+        return 0;
+
+    *value = number;
+    return 1;
+}
+
+int ReadDouble(double *value)
+{
+    char input[100];
+    char *end;
+    double number;
+
+    scanf("%99s", input);
+    number = strtod(input, &end);
+
+    if (*end != '\0')
+        return 0;
+
+    *value = number;
+    return 1;
 }
 
 void Add(double* a, double b)
