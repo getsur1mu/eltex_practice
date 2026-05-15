@@ -1,21 +1,21 @@
-#include <linux/init.h>
-#include <linux/kernel.h>
 #include <linux/module.h>
+#include <linux/kernel.h>
+#include <linux/init.h>
+
+MODULE_LICENSE("Student Bee License");
+MODULE_AUTHOR("get.sur1mu");
+MODULE_DESCRIPTION("My first simple hello world module");
 
 static int __init hello_init(void)
 {
-	printk(KERN_INFO "Hello, kernel module is loaded\n");
+	printk(KERN_INFO "Hello world!\n");
 	return 0;
 }
 
-static void __exit hello_exit(void)
+static void __exit hello_cleanup(void)
 {
-	printk(KERN_INFO "Hello, kernel module is unloaded\n");
+	printk(KERN_INFO "Cleaning up module.\n");
 }
 
 module_init(hello_init);
-module_exit(hello_exit);
-
-MODULE_AUTHOR("get.sur1mu");
-MODULE_DESCRIPTION("My first simple hello world module");
-MODULE_LICENSE("Student Bee License");
+module_exit(hello_cleanup);
