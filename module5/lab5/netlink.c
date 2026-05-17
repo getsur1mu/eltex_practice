@@ -4,6 +4,11 @@
 #include <linux/skbuff.h>
 #include <net/net_namespace.h>
 
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("get.sur1mu");
+MODULE_DESCRIPTION("Simple netlink module");
+
+
 #define NETLINK_USER 31
 
 static struct sock *nl_sk = NULL;
@@ -70,6 +75,3 @@ static void __exit hello_exit(void)
 module_init(hello_init);
 module_exit(hello_exit);
 
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("get.sur1mu");
-MODULE_DESCRIPTION("Simple netlink module");

@@ -8,13 +8,14 @@
 #include <linux/kobject.h>
 #include <linux/sysfs.h>
 
+MODULE_DESCRIPTION("Keyboard leds controlled through sysfs.");
+MODULE_AUTHOR("get.sur1mu");
+MODULE_LICENSE("GPL");
+
 #define BLINK_DELAY HZ/5
 #define ALL_LEDS_ON 0x07
 #define RESTORE_LEDS 0xFF
 
-MODULE_DESCRIPTION("Keyboard leds controlled through sysfs.");
-MODULE_AUTHOR("get.sur1mu");
-MODULE_LICENSE("GPL");
 
 static struct timer_list my_timer;
 static struct tty_driver *my_driver;

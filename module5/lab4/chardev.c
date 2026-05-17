@@ -1,8 +1,3 @@
-/*
- * chardev.c: Creates a read-only char device that says how many times
- * you have read from the dev file
- */
-
 #include <linux/cdev.h>
 #include <linux/delay.h>
 #include <linux/device.h>
@@ -12,6 +7,11 @@
 #include <linux/kernel.h>
 #include <linux/module.h>
 #include <linux/poll.h>
+
+MODULE_LICENSE("GPL");
+MODULE_AUTHOR("get.sur1mu");
+MODULE_DESCRIPTION("Simple char device module");
+
 
 static int device_open(struct inode *, struct file *);
 static int device_release(struct inode *, struct file *);
@@ -120,6 +120,3 @@ static ssize_t device_write(struct file *filp, const char __user *buff,
 
 module_init(chardev_init);
 module_exit(chardev_exit);
-MODULE_LICENSE("GPL");
-MODULE_AUTHOR("get.sur1mu");
-MODULE_DESCRIPTION("Simple char device module");
